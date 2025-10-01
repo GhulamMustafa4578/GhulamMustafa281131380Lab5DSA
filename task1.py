@@ -31,3 +31,16 @@ print(y.size())
 print(y.display())
 
 
+
+
+b=Stack()
+b.push("Alir")
+b.push("Azan")
+print(b.peek())
+print(b.pop())
+print(b.size())
+print(b.display())
+
+
+
+
