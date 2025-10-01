@@ -30,14 +30,15 @@ def reverse_string(s):
     while not stack.is_empty():
         reversed_str += stack.pop()
     return reversed_str
-y=Stack()
-y.push("Ali")
-y.push("Ahmad")
-print(y.peek())
-print(y.pop())
-print(y.size())
-print(y.display())
+# y=Stack()
+# y.push("Ali")
+# y.push("Ahmad")
+# print(y.peek())
+# print(y.pop())
+# print(y.size())
+# print(y.display())
 print(reverse_string("hello"))
+print(reverse_string("must"))
 
 
 
