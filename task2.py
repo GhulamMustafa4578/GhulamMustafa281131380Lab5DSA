@@ -22,3 +22,13 @@ print(x.dequeue())
 print(x.is_empty())
 print(x.size())
 print(x.display())
+
+
+
+a=Queue()
+a.enqueue("Goti")
+a.enqueue("Boti")
+print(a.dequeue())
+print(a.is_empty())
+print(a.size())
+print(a.display())
