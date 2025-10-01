@@ -41,4 +41,7 @@ def valid_parenthesis(expression):
 
 
 print(valid_parenthesis("a(k)"))
-print(valid_parenthesis("a(k"))    
+print(valid_parenthesis("a(k"))
+print(valid_parenthesis("{[()]}")) 
+print(valid_parenthesis("{[(])}")) 
+
